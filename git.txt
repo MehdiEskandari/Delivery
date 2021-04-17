@@ -1,0 +1,48 @@
+U: Untracked
+A: Added
+M: Modify
+
+    git init
+    git status
+
+SingleFile:
+    git add <file>
+    git rm --cached <file>
+    git restore --staged <file>
+
+AllFiles:
+    git add .
+    git rm --cached -r .
+    git restore --staged .
+
+    git commit -m "Add project to git"
+    git restore <file>
+
+
+    git diff
+    git commit -a -m "Message"
+
+    git log --oneline
+    git log -2 --oneline
+    git log -p --oneline
+
+
+    git reset <idCommit>
+    git restore .
+
+    git reset --hard <idCommit>
+
+Create Branch:
+    git branch dev1
+    git branch dev2
+List Branch:
+    git branch -a
+
+Switch between them:
+    git checkout dev1
+
+Delete a branch:
+    git branch -d dev2    
+ 
+Create and Switch into it:
+    git checkout -b dev2 

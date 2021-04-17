@@ -1,0 +1,95 @@
+#Gride
+
+    12 column exist in every page 
+
+    row: row
+    col: column
+
+
+    s: small
+    m: medium
+    l: large
+    xl: xlarge
+
+
+Example of gride:
+
+  <div class="row">
+    <div class="col s12"><p>s12</p></div>
+    <div class="col s12 m4 l2"><p>s12 m4</p></div>
+    <div class="col s12 m4 l8"><p>s12 m4</p></div>
+    <div class="col s12 m4 l2"><p>s12 m4</p></div>
+  </div>
+  <div class="row">
+    <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
+    <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
+    <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
+    <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
+  </div>
+
+#Helper
+
+
+Alignment
+    valign-wapper: Vertical align
+    left-align | right-align | center-align: Text align
+    left | right: Floats
+
+Hiding or Showing Content
+    hide: Hidden for all Devices
+    hide-on-small-only: Hidden for Mobile Only
+    hide-on-med-only: Hidden for Tablet Only
+    hide-on-med-and-down: Hidden for Tablet and Below
+    hide-on-med-and-up: Hidden for Tablet and Above
+    hide-on-large-only: Hidden for Desktop Only
+    show-on-small: Show for Mobile Only
+    show-on-medium: Show for Tablet Only
+    show-on-large: Show for Desktop Only
+    show-on-medium-and-up: Show for Tablet and Above
+    show-on-medium-and-down: Show for Tablet and Below
+
+Formatting  
+    truncate: To truncate long lines of text in an ellipsis
+    hoverable: animation for box shadow, mostly uses on cards
+
+Browser Defaults
+    browser-default: ul, select, input
+    Note: revert these elements to their original state.
+
+
+#Media Css
+
+Images
+    responsive-img: Responsive Images
+    circle: to make it appear circular
+
+Videos
+    video-container: Responsive Embeds
+    responsive-video: Responsive Videos
+
+#Pulse
+    pulse: Attention Effect
+    Note: This is meant for floating buttons
+
+#Sass
+Variables: Sass: Css:
+Media Queries:
+Small screens are defined as having a max-width of 600px
+Medium screens are defined as having a max-width of 992px
+Large screen are defined as having a min-width of 993px
+Extra Large screen are defined as having a min-width of 1200px
+
+sss
+
+
+
+
+
+
+
+
+
+
+
+
+
