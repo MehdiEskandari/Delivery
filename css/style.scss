@@ -8,10 +8,10 @@ body {
   font: 14px/2 poppins, tahoma, sans-serif;
   overflow-x: hidden;
 }
-.white{
+.white {
   background: white;
 }
-.bg-color{
+.bg-color {
   background: $bg-color;
 }
 
@@ -25,6 +25,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 2rem 1rem;
+  max-height: 61.5px;
+  overflow: hidden;
   .menu {
     img {
       width: 60px;
@@ -49,10 +51,85 @@ body {
       left: 0;
     }
   }
+  .profile {
+    display: flex;
+    &-image {
+      width: 100%;
+      max-width: 62px;
+      border-radius: 50%;
+    }
+    &-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 1rem;
+      &-username {
+        font-size: 16px;
+        font-weight: 700;
+      }
+      &-login {
+        font-size: 13px;
+        font-weight: 300;
+      }
+    }
+  }
+  .number {
+    background: #00a852;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0rem 1rem 0rem;
+    color: #ffffff;
+    font-size: 20px;
+    width: 60px;
+  }
 }
 .hr {
   border: 1px solid #eeeeee;
 }
+.mastercard {
+  cursor: pointer;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 30px;
+  &-main{
+    display: flex;
+    align-items: center;
+  }
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-image {
+    max-width: 90px;
+    border-radius: 1rem;
+  }
+  &-details{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    &-payment{
+      font-size: 20px;
+      color: #AAAAAA;
+    }
+  }
+  &-edit{
+    align-self: start;
+    margin: 1rem;
+    color: #AAAAAA;
+  }
+}
+// .order{
+
+// }
+
 .main {
   display: flex;
   flex-direction: column;
