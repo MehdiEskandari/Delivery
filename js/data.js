@@ -211,3 +211,6 @@ const products = [
         category: 7
     }    
 ]
+
+const JsonOrderedProducts = localStorage.getItem('orderedProducts')
+const orderedProducts = JSON.parse(JsonOrderedProducts) != null ? JSON.parse(JsonOrderedProducts) : []
