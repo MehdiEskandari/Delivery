@@ -97,7 +97,7 @@ body {
   padding: 1rem;
   margin: 1rem;
   border-radius: 30px;
-  &-main{
+  &-main {
     display: flex;
     align-items: center;
   }
@@ -110,25 +110,77 @@ body {
     max-width: 90px;
     border-radius: 1rem;
   }
-  &-details{
+  &-details {
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
     align-items: start;
-    &-payment{
+    &-payment {
       font-size: 20px;
-      color: #AAAAAA;
+      color: #aaaaaa;
+    }
+    &-card {
+      font-size: 18px;
+      font-weight: 600;
     }
   }
-  &-edit{
+  &-edit {
     align-self: start;
     margin: 1rem;
-    color: #AAAAAA;
+    color: #aaaaaa;
   }
 }
-// .order{
+.order {
+  margin: 1rem;
 
-// }
+  &-title {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  &-products {
+    padding: 1rem 0;
+  }
+  &-product {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 85px;
+      max-height: 45.48px;
+      border-radius: 1rem;
+      object-fit: cover;
+      box-shadow: 0 0 30px #0003;
+    }
+    &-details {
+      display: contents;
+      justify-content: space-between;
+    }
+    &-title {
+      font-size: 17px;
+      font-weight: 600;
+    }
+    &-price {
+      width: fit-content;
+      margin-left: auto;
+      font-size: 16px;
+      font-weight: 400;
+      color: #aaaaaa;
+    }
+  }
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+}
 
 .main {
   display: flex;
